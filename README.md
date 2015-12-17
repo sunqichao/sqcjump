@@ -7,18 +7,7 @@
 
 第三 . 打开设置中的功能（调节声音，wifi，相机，软件更新）
 
-typedef enum : NSInteger{
-    //打开设置中的图片设置
-    SQCJumpTophotos,
-    //打开设置中的语音助手
-    SQCJumpToSiri,
-    //打开设置中的软件更新
-    SQCJumpToSoftWareUpdate,
-    //打开设置中的wifi设置页
-    SQCJumpToWiFi,
-    //打开设置中的声音设置页
-    SQCJumpToSounds
-}SQCJumpType;
+ 
 @interface SQCJumpOut : NSObject
 
 
